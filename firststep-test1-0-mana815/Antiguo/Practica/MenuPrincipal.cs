@@ -1,25 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Practica
 {
     public partial class MenuPrincipal : Form
     {
-        private void InitializeComponent()
+        public MenuPrincipal()
         {
-            this.SuspendLayout();
-            // 
-            // MenuPrincipal
-            // 
-            this.ClientSize = new System.Drawing.Size(381, 433);
-            this.Name = "MenuPrincipal";
-            this.ResumeLayout(false);
+            InitializeComponent();
+        }
 
-        }    
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+            var compra = new FormulariCompra();
+            compra.Show();
+        }
+
+        private void btnLlista_Click(object sender, EventArgs e)
+        {
+            var llista = new Llista();
+            llista.Show();
+        }
+
+        private void btnSortir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}

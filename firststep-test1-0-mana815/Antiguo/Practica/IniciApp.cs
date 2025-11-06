@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Practica
@@ -15,21 +8,18 @@ namespace Practica
         public IniciApp()
         {
             InitializeComponent();
-
         }
+
         private void btnComencar_Click(object sender, EventArgs e)
-
         {
-            // Abre la pantalla de registro o siguiente paso
-            var formNou = new FormNouUsuari();
-            formNou.Show();
-            this.Hide();
+            // Abrir formulario nuevo / por ahora mostrar mensaje
+            MessageBox.Show("Acció Començar (IniciApp) - funcionalitat a implementar.");
         }
+
         private void btnJaTincCompte_Click(object sender, EventArgs e)
         {
-            // Abre la pantalla de login
-            var formLogin = new FormLogin();
-            formLogin.Show();
+            var login = new Login();
+            login.Show();
             this.Hide();
         }
     }

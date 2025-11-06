@@ -26,3 +26,7 @@ C:\Users\windows\source\repos\firststep-test1-0-mana815\Antiguo\Practica\obj\Deb
 C:\Users\windows\source\repos\firststep-test1-0-mana815\Antiguo\Practica\obj\Debug\Practica.PantallaBenvinguda.resources
 C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\obj\Debug\Practica.Llista.resources
 C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\obj\Debug\Practica.Login.resources
+C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\obj\Debug\Practica.MenuPrincipal.resources
+C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\bin\Debug\Practica.exe.config
+C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\bin\Debug\Practica.exe
+C:\Users\windows\Source\Repos\firststep-test1-0-mana815\Antiguo\Practica\bin\Debug\Practica.pdb
